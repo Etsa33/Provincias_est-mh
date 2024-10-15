@@ -1,4 +1,3 @@
-var map = L.map("map").setView([-1.808,-83.32],6); 
 L.Control.Watermark=L.Control.extend({
             onAdd:function(map){
                 var img = L.DomUtil.create('img');
