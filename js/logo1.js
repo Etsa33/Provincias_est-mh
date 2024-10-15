@@ -1,3 +1,5 @@
+//Crear un objeto mapa
+var map = L.map("map")
 L.Control.Watermark=L.Control.extend({
             onAdd:function(map){
                 var img = L.DomUtil.create('img');
